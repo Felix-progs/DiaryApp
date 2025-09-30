@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiaryApp
+namespace DiaryApp;
+public class DiaryEntry
 {
-    internal class DiaryEntry
-    {
-    }
+    public DateTime Date { get; set; }
+    public string Text { get; set; }
 }

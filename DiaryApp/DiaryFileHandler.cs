@@ -1,12 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DiaryApp
+namespace DiaryApp   
 {
-    internal class DiaryStorage
+    public class DiaryFileHandler
     {
+        private readonly string filePath;
+
+        public DiaryFileHandler(string filePath)
+        {
+            this.filePath = filePath;
+        }
+
+        public void SaveEntries(List<DiaryEntry> entries)
+        {
+            
+        }
+
+        public List<DiaryEntry> LoadEntries()
+        {
+            
+            return new List<DiaryEntry>();
+        }
     }
 }
