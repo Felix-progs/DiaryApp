@@ -40,7 +40,7 @@
                         break;
                     case "6":
                         Console.WriteLine("Good bye");
-                        break;
+                        return;
                     default:
                         Console.WriteLine("Invalid choice. Please choose a number between 1-6.");
                         break;
