@@ -10,12 +10,18 @@
 
            while (true)
            {
+               Console.ForegroundColor = ConsoleColor.Cyan;
+               Console.WriteLine("============================");
                Console.WriteLine("Welcome to the Diary App!");
+               Console.WriteLine("============================");
+               Console.ResetColor();
+               Console.ForegroundColor = ConsoleColor.Yellow;
                Console.WriteLine("1. Add new diary note");
                Console.WriteLine("2. List all Diary notes");
                Console.WriteLine("3. Search diary note by date");
                Console.WriteLine("4. Save notes to file");
                Console.WriteLine("5. Load notes to file");
+               Console.WriteLine("6. Exit");
                Console.Write("Choose an option: ");
                string choice = Console.ReadLine();
                     
